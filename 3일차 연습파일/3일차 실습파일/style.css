@@ -1,0 +1,29 @@
+.set01 {
+        height: 50vh;
+    background-color: #ffd6f0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+}
+.setox {
+    width: 100px; height: 100px;
+    background-color: #dbdbdb;
+}
+.set02 {
+    height: 50vh;   
+    background-color: #ffccec;
+
+}.set03 {
+    height: 50vh;
+    background-color: #ffb1e2;
+}.set04 {
+    height: 50vh;    
+    background-color: #ff8cd5;
+}.set05 {
+    height: 50vh;    
+    background-color: #ff7ed0;
+}
+.set06 {
+    height: 50vh;
+    background-color: #ff5ac2;
+}
