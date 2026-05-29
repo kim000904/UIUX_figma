@@ -12,11 +12,11 @@ h1 {
 .use-box {
     background-color: rgb(99, 31, 31);
 }
-main {
+main{
     height: 400vh;
     background-color: #f0d1d1;
 }
-footer {
+footer{
     height: 68px;
     background-color: #d1bebe;
 }
