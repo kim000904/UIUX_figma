@@ -1,0 +1,26 @@
+header {
+    width: 1920px; height: 86px;
+    border: 2px solid #E3E3E3; 
+}
+main {
+    height: 2526px dashed #E3E3E3;
+}
+.sct-01, .sct-02, .sct-03, .sct-04 {
+    background: #CFCFCF;
+    border: 1px solid #000; 
+}
+.sct-01 {
+    display: flex; gap: 20px;
+}
+.sct01-left {
+    width: 1100px; height: 610px;
+    background-color: yellow;
+}
+.sct01-right {
+    background-color: green;
+    flex-grow: 1;
+}
+footer {
+    border-bottom: 2px solid #e3e3e3;
+    height: 68px;
+}
