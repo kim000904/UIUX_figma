@@ -8,6 +8,7 @@ header {
 }
 nav {
     display: flex;
+    border-radius: 2px;
     gap: 35px;
 }
 .nav-box01 {
@@ -33,9 +34,11 @@ nav {
 h1 {
     width: 228px; height: 25px;
     background-color: rgb(158, 158, 130);
+    display: flex;
 }
 use {
     display: flex;
+    justify-self: flex-end;
     gap: 35px;
     
 }
