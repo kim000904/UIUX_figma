@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #888888;
-    padding: 0 100px;
+    padding: 64px;
 }
 nav {
     display: flex;
@@ -41,6 +41,7 @@ use {
     display: flex;
     justify-self: flex-end;
     gap: 35px;
+    padding: 64px;
     
 }
 .use-box01 {
@@ -110,6 +111,21 @@ width: 822px; height: 342px;
 .sct02-right {
 background: #CFCFCF;
 width: 822px; height: 342px;
+}
+.sct-03 {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* height: 600px;
+    align-content: space-between; */
+    row-gap: 20px;
+    
+}
+.sct03-li {
+    border: 1px solid orange;
+    width: 427px; height: 246px;
+    
 }
 footer {
     border-bottom: 2px solid #E3E3E3;
