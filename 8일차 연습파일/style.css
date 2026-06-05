@@ -1,0 +1,117 @@
+header {
+    border-bottom: 2px solid #ffffff;
+    width: 1920px; height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #888888;
+    padding: 0 100px;
+}
+nav {
+    display: flex;
+    border-radius: 2px;
+    gap: 35px;
+}
+.nav-box01 {
+    width: 92px; height: 12px;
+    background-color: rgb(172, 172, 172);
+}
+.nav-box02 {
+    width: 112px; height: 12px;
+    background-color: rgb(172, 172, 172);
+}
+.nav-box03 {
+    width: 148px; height: 12px;
+    background-color: rgb(172, 172, 172);
+}
+.nav-box04 {
+    width: 72px; height: 12px;
+    background-color: rgb(172, 172, 172);
+}
+.nav-box05 {
+    width: 88px; height: 12px;
+    background-color: rgb(172, 172, 172);
+}
+h1 {
+    width: 228px; height: 25px;
+    background-color: rgb(158, 158, 130);
+    display: flex;
+}
+use {
+    display: flex;
+    justify-self: flex-end;
+    gap: 35px;
+    
+}
+.use-box01 {
+    width: 68px; height: 12px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 2px;
+}
+.use-box02 {
+    width: 92px; height: 12px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 2px;
+}
+.use-box03 {
+    width: 58px; height: 12px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 2px;
+}
+.use-box04 {
+    width: 84px; height: 12px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 2px;
+}
+.use-box05 {
+    width: 36px; height: 12px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 2px;
+}
+main {
+    border-bottom: 2px dashed #E3E3E3;
+    height: 2526px;
+    padding: 64px;
+}
+.sct-01, .sct-02, .sct-03, .sct-04 {
+    background-color: #ebebeb;
+    border-bottom: 1px solid #000000;
+}
+.sct-01 {
+    display: flex; gap: 20px;
+}
+.sct01-left {
+    width: 1100px; height: 610px;
+    background-color: yellow;
+}
+.sct01-right {
+    background-color: green;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sct01-rbox01 {
+    background: #b8b8b8;
+    flex-grow: 1;
+}
+.sct01-rbox02 {
+    background: #888888;
+    flex-grow: 1;
+}
+.sct-02 {
+display: flex;
+justify-content: space-between;
+}
+.sct02-left {
+background: #CFCFCF;
+width: 822px; height: 342px;
+}
+.sct02-right {
+background: #CFCFCF;
+width: 822px; height: 342px;
+}
+footer {
+    border-bottom: 2px solid #E3E3E3;
+    height: 68px;
+}
