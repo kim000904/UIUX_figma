@@ -1,0 +1,18 @@
+.grid {
+    width: 956px; height: 731px;
+    background: #FFD7D7;
+    display: flex;
+}
+.section01 {
+    display: flex;
+    width: 912px; height: 323px;
+    background: #F4F4F4;
+}
+.r-box {
+    background: #FF8D8D;
+    width: 471px; height: 311px;
+}
+.l-box {
+    width: 453px; height: 313px;
+    background: #FF5252;
+ }
