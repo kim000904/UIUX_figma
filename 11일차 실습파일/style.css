@@ -1,0 +1,8 @@
+.sale-section {
+    width: 1920px; height: 1653px;
+    background-color: rgb(219, 180, 255);
+}
+.sale-top-box {
+    display: flex;
+    background-color: aquamarine;
+}
