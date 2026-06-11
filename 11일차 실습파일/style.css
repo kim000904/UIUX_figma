@@ -1,8 +1,44 @@
 .sale-section {
     width: 1920px; height: 1653px;
-    background-color: rgb(219, 180, 255);
+    padding-top: 64px; padding-bottom: 64px;
 }
 .sale-top-box {
-    display: flex;
-    background-color: aquamarine;
+    height: 820px;
+    display: flex; gap: 60px;
+    padding: 44px;
+}
+.top-emg-box01 {
+    background: #E8CACA;
+    width: 570px; height: 766px;
+}
+.top-emg-box02 {
+    background: #E8CACA;
+    width: 570px; height: 766px;
+}
+.top-emg-box03 {
+    background: #E8CACA;
+    width: 570px; height: 766px;
+}
+.sale-bottom-box {
+    width: 1920px; height: 641px;
+    display: flex; gap: 60px;
+    justify-content: center; align-items: center;
+}
+.bottom-emg-box01 {
+    background: #E8CACA;
+    width: 810px; height: 579px;
+}
+.bottom-emg-box02 {
+    background: #E8CACA;
+    width: 810px; height: 579px;
+}
+.txt1 {
+    font-size: 16px;
+}
+span {
+    padding: 10px 20px;
+    display: inline-flex;
+    border-radius: 10px;
+    border: 1px solid #979797;
+
 }
