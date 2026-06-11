@@ -1,39 +1,9 @@
-.flex-grid {
-    width: 1840px; height: 800px;
-    display: flex;
+body {
+color: #000;
+font-family: Inter;
+font-size: 17.5px;
+font-style: normal;
+font-weight: 100;
+line-height: 26px; /* 148.571% */
+letter-spacing: -0.5px;
 }
-.left-box {
-    display: grid;
-    gap: 40px;
-}
-.top-box {
-    display: flex;
-    justify-content: space-between;
-}
-.top-emg-box {
-    width: 488px; height: 358px;
-    background: #000;
-}
-.top-txt-box {
-    gap: 22px;
-}
-.left-top-1txt {
-    font-size: 28.5px;
-}
-.left-top-2txt {
-    font-size: 14px;
-}
-.left-top-3txt {
-    font-size: 17.5px;
-}
-.bottom-box {
-    display: flex;
-}
-.bottom-emg-box {
-    width: 488px; height: 358px;
-    background: #000;
-}
-.left-bottom-1txt {
-    font-size: 28.5px;
-}
-

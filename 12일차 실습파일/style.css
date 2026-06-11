@@ -1,0 +1,144 @@
+.flex-grid {
+    width: 1840px; height: 800px;
+    display: flex;
+}
+.left-box {
+    display: grid;
+    gap: 40px;
+}
+.top-box {
+    display: flex;
+}
+.top-emg-box {
+    width: 488px; height: 358px;
+    background: #000;
+}
+.left-toptxt {
+    padding-bottom: 22px; 
+    padding-left: 32px;
+}
+.left-top-1txt {
+    font-size: 28.5px;
+}
+.left-top-2txt {
+    font-size: 14px;
+}
+.left-top-3txt {
+    font-size: 17.5px;
+    padding-left: 32px;
+}
+.bottom-box {
+    display: flex;
+}
+.bottom-emg-box {
+    width: 488px; height: 358px;
+    background: #000;
+}
+.left-bottomtxt {
+    padding-bottom: 22px; 
+    padding-left: 32px;
+}
+.left-bottom-1txt {
+    font-size: 28.5px;
+}
+.left-bottom-2txt {
+    font-size: 14px;
+}
+.left-bottom-3txt {
+    font-size: 17.5px;
+    padding-left: 32px;
+}
+.midde-box {
+    width: 337px; height: 800px;
+    padding: 0 20px;
+}
+.middie-emg-box {
+    width: 337px; height: 450px;
+    background: #000;
+}
+.middie-top-txt {
+    font-size: 19px;
+    color: #333;
+}
+.middie-bottom-txt {
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+}
+.lught-box {
+    width: 357px; height: 800px;
+    padding-left: 20px;
+}
+.light-box01, .light-box02, .light-box03, .light-box04 {
+    width: 337px; height: 168px;
+    display: flex;
+    border-top: 1px solid #979797;
+    padding: 16px 18.7px 15px 0;
+    gap: 32px;
+}
+.light-box04 {
+    border-bottom: 1px solid #737373;
+}
+.light-emgbox-01, .light-emgbox-02, .light-emgbox-03, .light-emgbox-04 {
+    width: 126px; height: 168px;
+    background: #000;
+}
+.light-txt1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:132px
+}
+.txt1-1 {
+    font-size: 14.3px;
+    color: #333;
+}
+.txt1-2 {
+    font-size: 13.4px;
+    color: #333;
+}
+.light-txt2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: start;
+    gap: 110px;
+}
+.txt2-1 {
+    font-size: 14.3px;
+    color: #333;
+}
+.txt2-2 {
+    font-size: 13.4px;
+    color: #333;
+}
+.light-txt3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: start;
+    gap: 112px;
+}
+.txt3-1 {
+    font-size: 14.3px;
+    color: #333;
+}
+.txt3-2 {
+    font-size: 13.4px;
+    color: #333;
+}
+.light-txt4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: start;
+    gap: 90px;
+}
+.txt4-1 {
+    font-size: 14.3px;
+    color: #333;
+}
+.txt4-2 {
+    font-size: 13.4px;
+    color: #333;
+}
