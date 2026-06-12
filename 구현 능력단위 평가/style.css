@@ -1,0 +1,105 @@
+.bestsellers {
+    width: 1920px; height: 1084px;
+    padding: 124px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.nav-box {
+    width: 1760px; 
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E1DED9;
+    padding-top: 65px
+}
+.best-list01 {
+    width: 1760px; height: 671px;
+    gap: 40px;
+    display: flex;
+}
+.item-box1 {
+    width: 471px; height: 671px;
+}
+.img-box {
+    width: 410px; height: 410px;
+    background: #EBEBEB;
+}
+.tile-body01 {
+    display: flex;
+    padding: 40px 0 42px 0;
+    color: #333;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.tile-body02 {
+    color: #333;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: capitalize;
+    display: flex;
+    height: 63px;
+    padding-bottom: 40px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid #E1DED9;
+}
+.tile-body03 {
+    display: flex;
+    padding: 14px 0 24px 0;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.body03-txt1 {
+    color: #222;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+}
+.body03-txt2 {
+    display: flex;
+    gap: 15px;
+}
+.body03-txt2-1 {
+    color: #333;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px; /* 121.429% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.body03-txt2-2 {
+    color: #333;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px
+}
+.brt-box {
+    display: flex;
+    width: 408px;
+    height: 42px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #D8D8D8;
+    background: #FFF;
+}
