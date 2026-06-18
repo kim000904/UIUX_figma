@@ -1,3 +1,78 @@
+/* 폰트적용 */
+/* 기본 제공 글자두께 : 400,700 */
+/* 더 많은 두꼐: 두께를 가진 폰트 불러오기 */
+/* 폰트 페이지에 300,400,500,700만 있을 경우 ->
+ 100,200,600,800,900 사용 X */
+/* 웹상티ㅡ 디자인에 폰트 사용시 폰트 두께 종류부터 체크 */
+/* 폰트마다 라이선스 다름: 웹사이트 사용가능O,로고에 사용 x
+즉 폰트마다 사용할수 있는 범위가 다름 */
+/* 눈누폰트 -> css 적용 / 구글폰트 ->html vkdlf head 태그에 적용 */
+/* css -> font-face / html -><lick> */
+/* 폰트 저작권 잘못 걸리면 최소 80만원부터 최대 500만원까지
+벌금적용될수 있음★ */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+body{font-family: 'Pretendard', sans-serif}
 body{margin: 0; padding: 0;}
 p{margin: 0;}
 h1,h2,h3,h5,h6 {
@@ -5,9 +80,17 @@ h1,h2,h3,h5,h6 {
     font-size: inherit;
     margin: 0;
 }
+/* a: 기본 display-> inline */
+/* inlineL 패딩값을 넣었을때 좌표고정 상태로 패딩적용 */
+/*좌표고정 -> x와 y축 고정 (태그가 움직이지 않음)  */
+/* 해결 방안:인라인이 아닌 다른 속성값으로 변경 */
+/* display: block; -> a태그를 쓸때마다 적용할수 없음 ->노멀라이즈 파일에 작성 */
 a {
     color: inherit;
     text-decoration: none;
+    /* background-color: pink; */
+    display: block;
+
 }
 button {
     background-color: transparent;

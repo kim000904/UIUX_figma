@@ -1,70 +1,99 @@
-header {
-    border: 1px solid red;
-}
-main {
-    border: 1px solid red;
-}
 .bestsellers-section {
-    border: 5px solid orange;
     /* width: 1920px; 가로 스크롤 활성화 -> x */
     padding: 124px 80px;
 }
 .ui-nav {
-    border: 1px solid green;
     padding-top: 65px; padding-bottom: 65px;
     display: flex; justify-content: space-between;
+    border-top: 1px solid #E1DED9;
 }
 .section-title {
-    border: 1px solid blue;
+    color: #333;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px; /* 120% */
 }
 .view-all {
-    border: 1px solid blue;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
 }
 .amp_swiper {
-    border: 1px solid green;
-    display: flex;
+    display: flex; gap: 40px;
 }
 .best-product-list {
     flex-grow: 1; display: flex;
     flex-direction: column;
+    flex-basis: 0;
 }
-.best-product-list01 {border: 3px solid red;}
-.best-product-list02 {border: 3px solid rgb(199, 0, 0);}
-.best-product-list03 {border: 3px solid rgb(119, 0, 0);}
-.best-product-list04 {border: 3px solid rgb(43, 0, 0);}
-
 .best-img-box {
-    border: 1px solid orange;
     height: 410px;
     background-color: #ebebeb;
 }
 .best-discount-title {
-    border: 1px solid orange;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    
+}
+.best-discount-title>a {
     padding-top: 40px; padding-bottom: 42px;
 }
 .best-discount-subhead {
-    border: 1px solid orange;
     padding-bottom: 40px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    border-bottom: 1px solid #E1DED9;
 }
 .best-price-capacity {
-    border: 1px solid orange;
     padding-top: 14px; padding-bottom: 24px;
     display: flex; justify-content: space-between;
 }
 .best-price {
-    border: 1px solid orange;
+    color: #222;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px; /* 106.25% */
 }
 .best-capacity {
-    border: 1px solid orange;
+    /* 스판은 기본적으로 인라인을 가지고 있기때문에 2,3 여백을
+  가지고있다.->flex-item으로 만들어서 여백을 없애고 갭을 
+ 적용하는 방법이 가장 좋다. */
+    /* inline:r기본적으로 디자인에 적용되면 안되는 여백을
+ 가지고 있다. */
+    display: flex; gap: 16px;
 }
 .best-capacity-30ml {
-    border: 1px solid orange;
+    color: #333;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px; /* 121.429% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
 }
 .best-capacity-60ml {
-    border: 1px solid orange;
+    color: #333;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 121.429% */
+
 }
 .best-pro-btn {
-    border: 1px solid #E1DED9;
     background: #FFF;
     flex-grow: 1;
     padding-top: 12px; padding-bottom: 12px;
@@ -80,11 +109,11 @@ main {
     font-style: normal; */
 
     transition: 0.5s;
+
+    border: 1px solid #E1DED9;
 }
 .best-pro-btn:hover {
     background-color: #212529;
     color: #E1DED9;
-}
-footer {
-    border: 1px solid red;
+
 }
