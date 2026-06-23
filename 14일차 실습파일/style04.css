@@ -1,0 +1,7 @@
+.img-box04 {
+    background-color: red;
+}
+.img-box04 > img {
+    width: 500px; height: 500px;
+    object-fit: cover;
+}
