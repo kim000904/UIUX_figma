@@ -3,7 +3,7 @@
 .popup::before {
     /* 아무것도 작성하지 않아도 content: ""; 코드 필수 */
     content: "";
-
+    
     width: 30px;
 }
 .popup {
@@ -86,4 +86,5 @@
 .user-item {
     color: #000; font-size: 11px; 
     line-height: 15px; /* 136.364% */
-}/* relative나 body를 기준으로 크기 상속(위치속성) */
+}
+/* relative나 body를 기준으로 크기 상속(위치속성) */ 
